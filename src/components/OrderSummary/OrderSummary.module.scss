@@ -1,0 +1,33 @@
+.orderSummary {
+  position: relative;
+  width: 600px;
+  padding: 2rem;
+  margin: 0 2rem 2rem;
+  background-color: #eeeeee;
+  border-radius: 0.5rem;
+
+  h2 {
+    margin-bottom: 0.5rem;
+  }
+  p {
+    margin-left: 1rem;
+  }
+
+  button {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    border: 0;
+    height: 2rem;
+    width: 2rem;
+
+    svg {
+      height: 100%;
+      width: 100%;
+    }
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

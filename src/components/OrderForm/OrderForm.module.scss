@@ -1,0 +1,49 @@
+.checkout {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  padding: 2rem;
+  margin: 2rem;
+  background-color: #eeeeee;
+  border-radius: 0.5rem;
+
+  .title {
+    margin: 0 0 4rem -0.5rem;
+    color: gray;
+    font-size: 1rem;
+
+    span {
+      color: black;
+      font-weight: bold;
+    }
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+
+    button {
+      border: 0;
+      outline: 0;
+      cursor: pointer;
+      background-color: #91ed91;
+      width: fit-content;
+      padding: 1rem 1.5rem;
+      border-radius: 0.5rem;
+      font-weight: bold;
+      place-self: center;
+    }
+  }
+}
+
+.summary {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 834px;
+  width: 100%;
+  background-color: rgba(128, 128, 128, 0.5);
+}

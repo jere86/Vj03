@@ -1,0 +1,29 @@
+.contact {
+  position: relative;
+  padding: 0.5rem 0.75rem;
+  margin-bottom: 4rem;
+  border: 2px solid #82ccf7;
+  border-radius: 0.5rem;
+
+  p {
+    position: absolute;
+    top: -1.5rem;
+    left: 0;
+  }
+
+  .errorEMail {
+    position: absolute;
+    bottom: -1.5rem;
+    left: 0;
+    color: red;
+    font-size: 0.8rem;
+  }
+
+  input {
+    width: 100%;
+    line-height: 1.5;
+    padding: 0.25rem;
+    border: 1px solid black;
+    border-radius: 0.25rem;
+  }
+}
